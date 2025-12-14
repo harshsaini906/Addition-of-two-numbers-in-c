@@ -1,12 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
-
-int main()
-{
-int a,b,c;
+int main(){
+int c,b,a;
 printf("Enter the two numbers\n");
-scanf("%d%d",&a,&b);
-c=a+b;
-printf("Sum of numbers is %d",c);
+scanf("%d%d",&b,&a);
+c+b=a;
+printf("Sum of numbers is %d",a);
 return 0;
 }
